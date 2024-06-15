@@ -1,0 +1,123 @@
+*{
+          box-sizing: border-box;
+          margin: 0;
+          transition: 1s;
+}
+
+.container{
+          width: 1140px;
+          margin: 0 auto;
+}
+.header{
+          text-decoration: none;
+          color:  #3D3D3D;
+}
+
+main{
+          display: grid;
+          grid-template-columns: repeat(2,60% 30%) ;
+          margin-top: 30px;
+}
+
+
+.pro_nazvania{
+          display: grid;
+          grid-template-columns: repeat(4,25%);
+          
+}
+
+.lefo{
+          margin-right: 100px;
+}
+.lefo_1{
+margin-left: 160px;
+}
+.lefo_2{
+          margin-left: 90px;
+}
+.lefo_3{
+          margin-left: 40px;
+}
+
+.rpo_card{
+          display: flex;
+          justify-content:space-between;
+          align-items:center;
+           gap: 1.5rem; 
+          
+          background: #FBFBFB;
+          margin-top: 8px;
+          
+
+}
+
+.rpo_card:hover{
+          background: #46A3581A;
+}
+.card_bloc{
+          display: flex;
+          flex-direction:column;
+}
+.card_but_g{
+          display: flex;
+          /* flex-wrap: nowrap; */
+          justify-content:center;
+          align-items:center;
+          gap:5px;
+}
+.grug{
+          border-radius: 100%;
+         background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+          border: none;
+}
+
+.car_icon{
+          background: none;
+          border: none;
+          
+          
+}
+
+.card_icon:hover{
+          border: 1px solid #4d088d;
+}
+.grin{
+          color:  #46A358;
+          
+}
+
+/* 2 */
+.Cart_Totals{
+          margin-left: 70px;
+}
+form{
+          margin-top: 10px;
+}
+.form-control{
+          border: 1px solid #46A358;
+          margin-right: 0;  
+          padding: 10px 10px;  
+          width: 70%;  
+}
+.form-buut{
+          background: #46A358;
+          margin-left: -4px;
+          padding: 10px 10px; 
+          padding-left: 20px;
+          width: 30%;
+          border: 1px solid #46A358;
+}
+
+.cart_info{
+          
+}
+
+.linia{
+          display: flex;
+          justify-content:space-between;
+}
+.lin_1{
+display: flex;
+flex-direction:column;
+justify-content:flex-end;
+}
